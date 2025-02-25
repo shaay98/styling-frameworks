@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-red-100">
+    <div class="flex justify-center" style="justify-content: center">
+      <h1 class="text-3xl font-bold">Tailwind Demo</h1>
+    </div>
+    <p class="text-3xl text-pink-600">Fun fact about me, my favorite food is pizza.</p>
+    <button class="btn">Submit!</button>
+    <style>
+      .btn {
+        background-color: var(--color-sky-500);
+
+        &:hover {
+          background-color: var(--color-sky-700);
+        }
+      }
+    </style>
+  </body>
+</html>
